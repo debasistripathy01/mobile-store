@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  #navbar{
+    width: 30%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  #navbar>button{
+    margin: auto;
+    display: flex;
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    font-size: 17px;
+
+  }
+  #navbar+div{
+    /* border: 1px solid red; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
+    /* display: flex; */
+    width: 30%;
+    height: auto;
+    
+    /* align-items: center; */
+    font-size: 18px;
+
+
+  }
+
+  #navbar>button:hover{
+    background-color: blue;
+  }
+  #navbar>button{
+    cursor: pointer;
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+  }
+
+
+  #navbar>button>a{
+    text-decoration: none;
+    
+  }
+
+  #navbar>div{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #navbar>div+h2{
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    font-size: 18px;
+
+  }
+  #form>input{
+    width: 60%;
+    height: 50px;
+    margin-top: 3%;
+  }
+  #form>button{
+    cursor: pointer;
+    display: flex;
+    /* margin: auto; */
+    align-items: center;
+    margin-top: 2%;
+    justify-content: center;
+    width: 30%;
+    height: 40px;
+
+  }
+  #form>button:hover{
+    background-color: blueviolet;
+  }
+  #navbar>div>h2{
+    text-align: center;
+
+  }

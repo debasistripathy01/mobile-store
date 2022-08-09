@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#mobile_list{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+#mobile_list>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 3%;
+    text-align: center;
+}
+
+#mobile_list>button{
+    width: 50%;
+    height: 40px;
+    background-color: aqua;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+#mobile_list+div{
+    margin: auto;
+    display: flex;
+    width: 60%;
+    height: auto;
+    
+
+}
+

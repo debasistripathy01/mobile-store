@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link rel="stylesheet" href="./styles/store.css">
+  </head>
+  <body>
+    <div>
+      <a href="./index.html">Home</a>
+    </div>
+    <select name="Select Based on Price" id="filter" onchange="selectPrice()">
+      <option value="">Select</option>
+      <option value="" id="sort_lth">LTH</option>
+      <option value="" id="sort_htl">HTL</option>
+    </select>
+    <select name="Select Based on Brand" id="select_filter" onchange="selectBrand()">
+      <option value="">Select Brands</option>
+      <option value="">apple</option>
+      <option value="">oneplus</option>
+      <option value="">nokia</option>
+    </select>
+    <div id="mobile_list">
+      <!-- Appending all Data Here -->
+    </div>
+
+
+
+
+
+    <!-- On store page append all mobiles inside div with Id :- "mobile_list",
+Each mobile card will have class :- "mobile"
+every remove button will have class :- "remove"
+Sort from low to high button Id:- "sort_lth"
+sort from high to low button Id:- "sort_htl"
+select tag fro filtering will have Id:- "select_filter"
+Must provide these brands as options :- 
+a. apple
+b. oneplus
+c. nokia 
+// Do not add extra text to price, only number should be there as shown below
+// Price: 60000 (wrong)
+// 60000 (Right)
+
+-->
+  </body>
+</html>
+<script src="./scripts/store.js"></script>
